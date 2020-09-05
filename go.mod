@@ -1,4 +1,4 @@
-module github.com/seratch/go-module-playground
+module github.com/seratch/go-module-playground/foo
 
 go 1.15
 
