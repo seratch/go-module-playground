@@ -17,7 +17,7 @@ func TestProverb(t *testing.T) {
 }
 
 func TestVersion(t *testing.T) {
-	want := "0.1.0"
+	want := "0.1.1"
 	if got := Version(); got != want {
 		t.Errorf("Version() = %q, want %q", got, want)
 	}
