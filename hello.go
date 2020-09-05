@@ -6,7 +6,7 @@ import (
 )
 
 func Version() string {
-	return "3.0.0"
+	return "1.0.2"
 }
 
 func Hello() string {
