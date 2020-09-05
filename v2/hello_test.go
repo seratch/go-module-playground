@@ -9,9 +9,9 @@ func TestHello(t *testing.T) {
 	}
 }
 
-func TestProverb(t *testing.T) {
-	want := "Concurrency is not parallelism."
-	if got := Proverb(); got != want {
-		t.Errorf("Proverb() = %q, want %q", got, want)
+func TestVersion(t *testing.T) {
+	want := "2.0.0"
+	if got := Version(); got != want {
+		t.Errorf("Version() = %q, want %q", got, want)
 	}
 }
